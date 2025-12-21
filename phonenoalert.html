@@ -7,7 +7,10 @@
   <title>原神随机壁纸（手机）</title>
  </head>
  <body>
-  <script type="text/javascript" src="randomphone.json"></script>
+  <script type="text/javascript">
+   var r=Math.ceil(Math.random()*35);
+   window.location.replace("/images/Phone/"+[r]+".png")
+  </script>
   <!--
   <script type="text/javascript">
    alert("手机壁纸较少，只有36张")
