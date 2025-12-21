@@ -1,2 +1,0 @@
-var r=Math.ceil(Math.random()*100);
-document.write("<img src=/images/Phone"+[r]+".png>")
